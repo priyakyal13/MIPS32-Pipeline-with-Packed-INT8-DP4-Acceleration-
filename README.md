@@ -68,22 +68,6 @@ DP4 = 1*5 + 2*6 + 3*7 + 4*8 = 70
                   Performance counters
 ```
 
-## Repository layout
-
-```text
-EdgeMIPS-CPU/
-├── rtl/
-│   ├── edge_mips.v       # Top-level 5-stage processor
-│   └── dp4_unit.v        # Custom packed INT8 dot-product unit
-├── tb/
-│   └── tb_edge_mips.v    # Self-checking simulation + benchmark
-├── docs/
-│   └── architecture.md
-├── Makefile
-├── run.sh
-├── .gitignore
-└── README.md
-```
 
 ## Supported instructions
 
